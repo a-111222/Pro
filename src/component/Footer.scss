@@ -1,0 +1,83 @@
+$bg:#121212;
+$color:#FFF;
+$width:100%;
+$height:100%;
+$display:block;
+$scoundcolor:#007bff;
+.Footer{
+    padding-top: 16%;
+    float: left;
+    display: block;
+    width: 100%;
+    height: 100vh;
+  
+    .two{
+        font-weight: 700;
+        margin-bottom: 1rem !important;
+        color: rgba(255, 255, 255, 0.9);
+        line-height: 1.5;
+        font-size: 32px;
+        font-weight: 100;
+        font-family: inherit;
+        text-align: center;
+        .icons{
+            width: 300px;
+            text-align: center;
+            margin: 0 auto;
+            padding-bottom: 4%;
+            padding-top: 10%;
+            .mdl-cell{
+                text-align: center;
+                color: #fffdf8;
+                display: inline-block;
+                font-size: 28px;
+                margin-top: 2%;
+                display: inline-table;
+                border-radius: 50%;
+               
+                a{    
+                    margin: 0 3%;
+                    background: #1f1d1d;
+                    padding: 4px;
+                     color: #2e84f2;
+                    display: inline-block;
+                    border-radius: 50%;
+                    height: 50px;
+                    width: 50px;}}
+        }
+        .Contact{
+            font-weight: 700;
+            letter-spacing: 0px;
+        }
+        .Email{
+            font-size: 23px;
+        }
+        .last{
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 29px;
+            text-align: center;
+            letter-spacing:8px;
+            span{
+                color: #f00;
+                padding-right: 1%;
+            }
+        }
+        }
+    
+    }
+
+    /*start media */
+    @media(min-width:320px) and (max-width:768px){
+        .Footer{
+            .main-div{
+                width: 100%;
+                margin: auto;
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }

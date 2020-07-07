@@ -1,0 +1,71 @@
+$bg:#121212;
+$color:#FFF;
+$width:100%;
+$height:100%;
+$display:block;
+$scoundcolor:#007bff;
+.skills{
+    float: left;
+    display: block;
+    width: 100%;
+    padding-top: 13%;
+    .title{
+        h3{
+        text-align: center;
+        color: #8c8c8c;
+        font-size: 18px;
+        line-height: 1.8;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 5px;}
+        p{
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 1.5;
+            color: #fff;
+            margin-bottom: 0.5rem;
+            text-align: center !important;}
+
+    }
+ .demo-grid-ruler {
+    text-align: center;
+    padding-top: 10%;
+    h2{
+        color: #8c8c8c;
+        font-size: 18px;
+        line-height: 1.8;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        padding-bottom: 3%;
+        padding-right: 47%;
+     } 
+     .CountUp{
+        font-weight: 400;
+        font-size: 75px;
+        color: #2f89fc;
+     }
+     span{   
+        font-size: 20px;
+        color: #2f89fc;
+     }
+ }  
+}
+
+/*start media*/
+/*start media mopile*/
+@media(min-width:320px) and (max-width:500px){
+    .skills{
+        .demo-grid-ruler {
+            padding: 0px;
+       }
+    }
+}
+/*start media tab*/
+@media(min-width:500px) and (max-width:768px){
+    .skills{
+        .demo-grid-ruler {
+            padding: 0px;
+       }
+    }
+}

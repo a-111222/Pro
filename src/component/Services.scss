@@ -1,0 +1,89 @@
+$bg:#121212;
+$color:#FFF;
+$width:100%;
+$height:100%;
+$display:block;
+
+
+.Services{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    float: left;
+    height: 100vh;
+    padding-top: 15%;
+    background: $bg;
+    color: #FFF;
+    overflow: hidden;
+    .demo-grid-ruler{
+    .main{
+        padding-bottom: 9%;
+        //padding-top: 6%;
+      .one{
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: #8c8c8c;
+        font-size: 20px;
+      }
+      .two{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.5;
+        color: #fff;
+      }
+    }
+ section{
+  width: 80%;
+  display: inline-flex;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+  
+  .Services-item{
+    .Icon{
+         color: #2f89fc;
+         font-size: 57px;
+         padding-bottom: 12%;}
+         p{font-size: 37px;
+          line-height: 53px;}
+    }
+ }
+    }
+}
+/*start mop media*/
+@media (min-width:320px) and (max-width:500px){
+  .Services{
+    height: unset;
+    .demo-grid-ruler section{
+      display: block;
+      .Services-item{
+        padding-bottom: 14%;}
+    }
+  }
+}
+
+/*start tab media*/
+@media (min-width:500px) and (max-width:768px){
+  .Services{
+    height: unset;
+    .demo-grid-ruler section{
+      display: block;
+      .Services-item{
+        padding-bottom: 14%;}
+    }
+  }
+}
+
+/*start lab media*/
+@media (min-width:768px) and (max-width:1024px){
+  .Services{
+    height: unset;
+    .demo-grid-ruler section{
+      width: 100%;
+      .Services-item{
+        padding-bottom: 14%;}
+    }
+  }
+
+
+}
