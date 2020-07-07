@@ -12,9 +12,11 @@ export default class Footer extends Component {
                
                 <Grid className="demo-grid-ruler two">
                    <div className="icons">
-                   <Cell   col={1}><a href="https://www.upwork.com/freelancers/~0151e531eb4c0b3995" target="blank"><FaCartPlus /> </a></Cell>
-                    <Cell  col={1}><a href="https://www.linkedin.com/in/abdelrhman-a-514081198/" target="_blank"><FaLinkedinIn/></a></Cell>
-                    <Cell  col={1} ><a href="https://www.freelancer.com/u/Abdelrhman75"target="blank"><FaCartPlus/></a></Cell>
+                 <a href="https://www.upwork.com/freelancers/~0151e531eb4c0b3995" target="blank"><FaCartPlus /> </a>
+                 <a href="https://www.linkedin.com/in/abdelrhman-a-514081198/" target="_blank"><FaLinkedinIn/></a>
+                 <a href="https://www.freelancer.com/u/Abdelrhman75"target="blank"><FaCartPlus/></a>
+                  
+                  
                    </div>
                    
                     <Cell col={12} className="Contact">Contact me</Cell>

@@ -26,14 +26,7 @@ $scoundcolor:#007bff;
             margin: 0 auto;
             padding-bottom: 4%;
             padding-top: 10%;
-            .mdl-cell{
-                text-align: center;
-                color: #fffdf8;
-                display: inline-block;
-                font-size: 28px;
-                margin-top: 2%;
-                display: inline-table;
-                border-radius: 50%;
+     
                
                 a{    
                     margin: 0 3%;
@@ -44,7 +37,7 @@ $scoundcolor:#007bff;
                     border-radius: 50%;
                     height: 50px;
                     width: 50px;}}
-        }
+        
         .Contact{
             font-weight: 700;
             letter-spacing: 0px;
@@ -78,6 +71,7 @@ $scoundcolor:#007bff;
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
+                z-index: 99999999;
             }
         }
     }
