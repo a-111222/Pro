@@ -10,6 +10,10 @@ $scoundcolor:#007bff;
     display: block;
     width: 100%;
     height: 100vh;
+    z-index:9999999999!important;
+    #Footer{
+     z-index:9999999999!important;
+    }
   
     .two{
         font-weight: 700;
@@ -65,7 +69,11 @@ $scoundcolor:#007bff;
     @media(min-width:320px) and (max-width:768px){
         .Footer{
             #Footer{
+<<<<<<< HEAD
                 z-index: 999999999999!important;
+=======
+            z-index:999999999!important;
+>>>>>>> bc05a5416fa9f6a8aef3aeaaaee3600ce0692950
             }
             .main-div{
                 width: 100%;
