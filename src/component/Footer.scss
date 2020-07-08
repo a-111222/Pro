@@ -68,6 +68,9 @@ $scoundcolor:#007bff;
     /*start media */
     @media(min-width:320px) and (max-width:768px){
         .Footer{
+            #Footer{
+            z-index:999999999!important;
+            }
             .main-div{
                 width: 100%;
                 margin: auto;
